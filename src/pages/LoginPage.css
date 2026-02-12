@@ -1,0 +1,117 @@
+/* Login page styles */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #028090 0%, #00A896 100%);
+}
+
+.login-page .container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+}
+
+.login-page h1 {
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  font-size: 28px;
+}
+
+.login-page .google-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Landing page styles */
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #028090 0%, #00A896 100%);
+}
+
+.landing-page .container {
+  text-align: center;
+  color: white;
+}
+
+.landing-page h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.landing-page p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #f5576c;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #f03852;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: #028090;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #015f6b;
+  transform: translateY(-2px);
+}
+
+/* Dashboard styles */
+.dashboard {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+
+.dashboard .container {
+  max-width: 800px;
+}
+
+.dashboard h1 {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.dashboard p {
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+/* Auth callback styles */
+.auth-callback {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-callback p {
+  font-size: 18px;
+  color: #666666;
+}
